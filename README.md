@@ -17,4 +17,4 @@ Can use --model_file <file> instead of --save_as_default_model since this will o
  
 4. Finally the scoring metric can be run. We need to specify where the MIST generated values are and the handtagged values. 
 
-  bin/MATScore --dir /home/abhandar/data/MISToutput/ --ref_dir /home/abhandar/data/annotated/test/ --task "AMIA Deidentification"
+  bin/MATScore --dir ~/data/MISToutput/ --ref_dir ~/data/annotated/test/ --task "AMIA Deidentification"
